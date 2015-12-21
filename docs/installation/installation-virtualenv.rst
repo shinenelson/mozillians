@@ -155,7 +155,8 @@ Setting up a MySQL user and database for development:
 
 #. Install timezone info tables in mysql::
 
-   (venv)$ mysql_tzinfo_to_sql /usr/share/zoneinfo/ | mysql -uroot -proot mysql
+   (venv)$ mysql_tzinfo_to_sql /usr/share/zoneinfo/ | mysql -u root -p mysql
+   Enter password: ........
 
 .. _MySQL site: http://dev.mysql.com/downloads/mysql/
 
